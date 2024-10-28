@@ -22,3 +22,6 @@ dependencyResolutionManagement {
 rootProject.name = "AirBooking"
 include(":app")
 include(":domain")
+include(":presentation")
+include(":data")
+include(":network")
