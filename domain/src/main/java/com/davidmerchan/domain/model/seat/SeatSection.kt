@@ -1,4 +1,4 @@
-package com.davidmerchan.domain.model
+package com.davidmerchan.domain.model.seat
 
 import java.math.BigDecimal
 
