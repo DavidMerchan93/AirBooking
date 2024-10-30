@@ -3,9 +3,9 @@ package com.davidmerchan.domain.model.baggage.pack.regular
 import com.davidmerchan.domain.model.baggage.pack.BoardingTurn
 import java.math.BigDecimal
 
-class Basic(
-    name: String = "Basic Regular",
+class RegularBasic(
     price: BigDecimal = BigDecimal(40.0)
-): Regular(name, price) {
+): Regular(price) {
+    override val name: String = "Basic Regular"
     override val boardingTurn: BoardingTurn = BoardingTurn.END
 }
