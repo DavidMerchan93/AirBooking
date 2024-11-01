@@ -9,8 +9,4 @@ data class Ticket(
     val passenger: Passenger,
     val baggagePackage: BaggagePack,
     val seat: Seat
-): Formatter {
-    override fun format(): String {
-        return  ""
-    }
-}
+)
