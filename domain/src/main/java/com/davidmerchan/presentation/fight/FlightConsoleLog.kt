@@ -1,4 +1,4 @@
-package com.davidmerchan.presentation
+package com.davidmerchan.presentation.fight
 
 import com.davidmerchan.domain.model.Flight
 import com.davidmerchan.domain.utils.Formatter

@@ -1,4 +1,4 @@
-package com.davidmerchan.presentation
+package com.davidmerchan.presentation.ticket
 
 import com.davidmerchan.domain.model.Ticket
 import com.davidmerchan.domain.utils.Formatter
